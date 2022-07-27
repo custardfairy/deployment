@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(140, 49, 192);
+  }
+  
+  h1 {
+    color: rgb(252, 240, 247);
+    margin-left: 495px
+
+  }
+
+  h3 {
+    color: rgb(252, 240, 247);
+    margin-left: 500px;
+  }
+
+img {
+    max-width: 50%;
+    height: 50;
+    margin-left: 300px;
+  }
