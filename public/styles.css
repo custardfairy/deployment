@@ -49,11 +49,13 @@ body {
         margin-right: auto;
         width: 50%;
       }
-row {
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
+    align-self: stretch;
+    margin: 0 auto;
 }
