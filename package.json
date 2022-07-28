@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "fitty": "^2.3.6"
+    "fitty": "^2.3.6",
+    "rollbar": "^2.25.0"
   }
 }
