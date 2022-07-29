@@ -1,38 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Material Gworl</title>
-  <link rel="stylesheet" href="./reset.css"></link>
-  <link rel="stylesheet" href="./styles.css"></link>
-</head>
+<html lang="en" dir="ltr"><head>
+  <title>Material Gworls</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&amp;family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+  <style type="text/css">
+    
+    body {font-family: 'Roboto', Arial, Verdana, sans-serif; background: #eb63df;}
+    
+    #wrapper {    
+      width: 960px;
+      margin: 0 auto;
+      border: 1px solid black;
+      padding: 20px;
+      background: rgba(91, 10, 99, 0.863);
+      border-radius: 8px;
+      }
+    
+    h1,.caption {font-family: 'Montserrat', Arial, Verdana, sans-serif; font-variant: small-caps;
+  }
+
+    .feature-box {padding: 8em 2em; background-image: url("https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2022/05/neca-7.png"); background-position: center center; background-size: cover; border-radius: 8px; margin-bottom: 20px;}
+    .feature-box h1 {font-size: 42px; background: rgba(255,255,255,.4); color: deeppink; padding: 12px 2em; text-align: center; text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;}
+    .feature-box h2 {font-size: 24px; background: rgba(255,255,255,.4); color: white; text-align: center;}
+    .row {overflow: auto; padding: 20px 0;}
+
+    .col1, .col2, .col3 {float: left; width: 400px; border: 2px solid black; border-radius: 8px; box-shadow: 4px 4px 2px darkgrey; padding: 20px; margin-right: 20px;}
+    .col1 {margin-left: 20px;}
+    .col3 {margin-left: 20px;}
+
+    .box {position: relative;}
+    .box .caption {font-size: 24px; font-weight: bold; color: purple; background: rgba(255,255,255,1); padding: 12px; position: absolute; bottom: 0;
+    }
+
+    footer {background: lightgrey; text-align: center; padding: 10px; border-radius: 8px; margin-top: 20px;}
+
+    a.button {padding: 12px; text-decoration: none; background: deeppink; color: white; transition: all 0.5s}
+    a.button:hover {background: purple;}
+
+
+  </style>
+<style>[object HTMLStyleElement]</style></head>
 <body>
-<!-- Load an icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div id="wrapper">
 
-<!-- The sidebar -->
-<div class="sidebar">
-  <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#services"><i class="fa fa-fw fa-venus"></i>About</a>
-  <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-</div>
-  <h1>Femmes in Film</h1>
-  <div class="container">
-    <img id="gremlin" src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2022/05/neca-7.png" alt="Gremlin Bride">
-    <div class="text-block">
-  <h2>Material Gworls</h2>
+    <div class="feature-box">
+      <h1>Material Gworls</h1>
+      <h2>High Femmes in Film</h2>
     </div>
-    <br>
-<row>
-  <iframe src="https://giphy.com/embed/t7ROzZQbH2KiI" width="480" height="311" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/matthew-broderick-t7ROzZQbH2KiI">via GIPHY</a></p>
+    
+    <div class="row">
+      <div class="col1">
 
-<iframe src="https://giphy.com/embed/s6DOQy2TnKlW0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/birthday-carol-burnett-happy-baby-girl-s6DOQy2TnKlW0">via GIPHY</a></p>
+        <div class="box">
+          <img src="https://carboncostume.com/wordpress/wp-content/uploads/2017/10/mrswhite2-1.png" width="400" alt="css coding on a screen">
+          <div class="caption">Madeline Kahn, Clue</div>
+        </div>
 
-<iframe src="https://giphy.com/embed/14nNwczrhgaQ5G" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/planning-happy-gif-evil-plan-14nNwczrhgaQ5G">via GIPHY</a></p>
-<iframe src="https://giphy.com/embed/l46CAeMR1XVgrpY5O" width="480" height="204" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yosub-l46CAeMR1XVgrpY5O">via GIPHY</a></p>
-    </row>
-  <script src="main.js"></script>
-</body>
-</html>
+        <p>Madeline Kahn was iconic in the role of merry widow Mrs. White, having seen five husbands dispatched in short order. The "Flames" scene is probably the most memorable from the film, with Madeline portraying femme rage with alacrity. </p>
+
+        <p><a href="#" class="button">Flames</a></p>
+        <!--https://www.youtube.com/watch?v=z8d8y4BLWtI-->
+      </div>
+
+      <div class="col2">
+        <div class="box">
+          <img src="https://hips.hearstapps.com/cosmouk.cdnds.net/14/31/nrm_1406798788-119417-aleni.jpg" width="400" alt="Meryl Streep as Miranda Priestly">
+          <div class="caption">Meryl Streep, The Devil Wears Prada</div>
+        </div>
+
+        <p>Miranda Priestly was the nightmare boss in high fashion film The Devil Wears Prada. Though working for Miranda would be hell, this femme brings the attitude, style, and command of an icon.</p>
+
+        <p><a href="#" class="button">Gird Your Loins</a></p>
+        <!--https://www.youtube.com/watch?v=2PjZAeiU7uM-->
+      </div>
+    <!--/div-->>
+
+    <div class="col3">
+       <div class="box">
+         <img src="images/coding-plant.jpg" width="400" alt="css coding on a screen">
+          <div class="caption">Some text</div>
+         </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <p><a href="#" class="button">Link to Something</a></p>
+      </div>
+    </div>
+
+    <footer><p>Some footer text goes here.</p></footer>
+
+  </div>
+
+<scribe-shadow id="shadow-root-scribe-elem" style="position: fixed; width: 0px; height: 0px; top: 0px; left: 0px; z-index: 2147483647; overflow: visible;"></scribe-shadow></body></html>

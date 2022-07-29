@@ -19,6 +19,16 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
+rollbar.info("html file served successfully.");
+
+try {
+  nonExistentFunction();
+} catch (error) {
+  rollbar.error(error);
+}
+
+app.use(rollbar.errorHandler());
+
 // gets the port from heroku, or uses 4004
 const port = process.env.PORT || 4004;
 
